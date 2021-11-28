@@ -1,0 +1,21 @@
+<div class="flash">
+<% flash.each do |key, value| %>
+  <%= content_tag(:div, value, class: "#{key}") %>
+<% end %>
+</div>
+
+<p class="show-title">
+  <h4>Title</h4>
+  <%= @book.title %>
+</p>
+
+<p class="show-body">
+ <h4>Body</h4>
+ <%= @book.body %>
+</p>
+
+<br>
+<div class="show-box">
+ <%= link_to "Edit", edit_book_path(@book.id) %>
+ <a href="/books">| Back</a>
+ </div>

@@ -1,0 +1,55 @@
+
+.flash{
+	color: green
+}
+
+notice{
+	margin: 30px;
+}
+
+body{
+	margin: 33px;
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 13px;
+	line-height:18px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+thead{
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr{
+	display: table-row;
+	border-color: inherit;
+}
+
+
+.show-title{
+	margin-left: 50px;
+}
+
+.show-body{
+	margin-left: 50px;
+}
+
+td{
+	max-width: 400px;
+	padding-left: 50px;
+}
+
+.new-table{
+	margin-left: 10px;
+}
